@@ -137,6 +137,53 @@ main a {
   padding: 0;
 }
 
+/* Timeline (Experience & Education) */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--color-accent-light);
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -6px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.timeline-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+}
+
+.timeline-head h3 {
+  font-size: 1.1rem;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.timeline-date {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.timeline-org {
+  margin: 0.25rem 0 0.75rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
 /* Contact list */
 #contact ul {
   list-style: none;
@@ -160,53 +207,6 @@ main a {
 
 #skills ul:last-of-type {
   margin-bottom: 0;
-}
-
-/* Work experience */
-#experience .timeline {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#experience .timeline-item {
-  position: relative;
-  padding-left: 1.5rem;
-  border-left: 2px solid var(--color-accent-light);
-}
-
-#experience .timeline-marker {
-  position: absolute;
-  left: -6px;
-  top: 6px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--color-accent);
-}
-
-#experience .timeline-head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.25rem 1rem;
-}
-
-#experience .timeline-head h3 {
-  font-size: 1.1rem;
-  color: var(--color-text);
-  margin: 0;
-}
-
-#experience .timeline-date {
-  color: var(--color-muted);
-  font-size: 0.9rem;
-}
-
-#experience .timeline-org {
-  margin: 0.25rem 0 0.75rem;
-  font-weight: 600;
-  color: var(--color-accent);
 }
 
 /* Projects */
