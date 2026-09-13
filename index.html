@@ -126,46 +126,66 @@
 
       <section id="projects">
         <h2>Projects</h2>
-        <ul>
-          <li>
-            <strong>TaskForge</strong> — a Notion-inspired task management app
-            with drag-and-drop kanban boards, customizable workflows, and
-            tag-based filtering. Built with React, TypeScript, and Tailwind CSS;
-            includes dark mode and a fully responsive design.
-            <a
-              href="https://github.com/otonebieridze/taskforge"
-              target="_blank"
-              rel="noopener"
-              >Source code</a
-            >
-            ·
-            <a
-              href="https://task-manager-tau-wheat.vercel.app/"
-              target="_blank"
-              rel="noopener"
-              >Live demo</a
-            >
-          </li>
-          <li>
-            <strong>Movie Explorer</strong> — a responsive movie discovery app
-            built with React, TypeScript, and the TMDB API, featuring search,
-            favorites, and detailed movie pages, with dark mode, skeleton
-            loaders, and pagination.
-            <a
-              href="https://github.com/otonebieridze/movie-explorer"
-              target="_blank"
-              rel="noopener"
-              >Source code</a
-            >
-            ·
-            <a
-              href="https://movie-explorer-dusky-theta.vercel.app/"
-              target="_blank"
-              rel="noopener"
-              >Live demo</a
-            >
-          </li>
-        </ul>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>TaskForge</h3>
+            <p>
+              A Notion-inspired task management app with drag-and-drop kanban
+              boards, customizable workflows, and tag-based filtering. Includes
+              dark mode and a fully responsive design.
+            </p>
+            <ul class="tag-list">
+              <li class="chip">React</li>
+              <li class="chip">TypeScript</li>
+              <li class="chip">Tailwind CSS</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/otonebieridze/taskforge"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >Source code →</a
+              >
+              <a
+                href="https://task-manager-tau-wheat.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >Live demo →</a
+              >
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Movie Explorer</h3>
+            <p>
+              A responsive movie discovery app with search, favorites
+              management, and detailed movie pages, featuring dark mode,
+              skeleton loaders, and pagination.
+            </p>
+            <ul class="tag-list">
+              <li class="chip">React</li>
+              <li class="chip">TypeScript</li>
+              <li class="chip">TMDB API</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/otonebieridze/movie-explorer"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >Source code →</a
+              >
+              <a
+                href="https://movie-explorer-dusky-theta.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >Live demo →</a
+              >
+            </div>
+          </article>
+        </div>
       </section>
 
       <section id="code-example">
